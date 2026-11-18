@@ -1,0 +1,72 @@
+{
+  "primary": {
+    "n_raw": 3234,
+    "n_after_exact_dedup": 1831,
+    "n_removed_ys_gt_uts_or_nonpositive": 1,
+    "n_clean": 1830,
+    "n_composition_groups": 345
+  },
+  "benchmark": {
+    "n_raw": 312,
+    "n_after_exact_dedup": 312,
+    "n_removed_ys_gt_uts_or_nonpositive": 0,
+    "n_clean": 312,
+    "n_composition_groups": 312
+  },
+  "primary_targets": {
+    "YS": {
+      "count": 1830.0,
+      "mean": 612.2,
+      "std": 309.5,
+      "min": 159.0,
+      "25%": 381.0,
+      "50%": 550.0,
+      "75%": 786.0,
+      "max": 2395.0
+    },
+    "UTS": {
+      "count": 1830.0,
+      "mean": 817.6,
+      "std": 320.4,
+      "min": 275.0,
+      "25%": 585.0,
+      "50%": 765.0,
+      "75%": 1000.0,
+      "max": 2451.0
+    },
+    "EL": {
+      "count": 1830.0,
+      "mean": 19.0,
+      "std": 6.3,
+      "min": 3.0,
+      "25%": 15.0,
+      "50%": 18.0,
+      "75%": 22.0,
+      "max": 46.0
+    }
+  },
+  "primary_processing_flags_mean": {
+    "is_quenched": 0.468,
+    "quench_oil": 0.369,
+    "quench_water": 0.072,
+    "is_tempered": 0.475,
+    "is_normalized": 0.186,
+    "is_annealed": 0.065,
+    "is_carburized": 0.195,
+    "is_cold_drawn": 0.09,
+    "is_hot_rolled": 0.05,
+    "is_stress_relieved": 0.026,
+    "is_aged": 0.011,
+    "is_double_quenched": 0.017,
+    "no_process_info": 0.184
+  },
+  "primary_missing_flags_mean": {
+    "aust_temp_missing": 0.506,
+    "temper_temp_missing": 0.012,
+    "section_missing": 0.269
+  },
+  "hardness_labels_available": false,
+  "considere_hollomon_bound_satisfied_by_data": 0.8972677595628415,
+  "considere_bound_satisfied_with_margin": 0.9202185792349726,
+  "benchmark_composition_overlap_groups": 0
+}

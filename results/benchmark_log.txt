@@ -1,0 +1,5 @@
+rf         R2 YS=0.877 UTS=0.884 EL=0.772 | viol in-dist=0.1190 OOD=0.0999 (50.5s)
+xgb        R2 YS=0.890 UTS=0.900 EL=0.823 | viol in-dist=0.1777 OOD=0.1439 (519.5s)
+mlp        R2 YS=0.703 UTS=0.790 EL=0.780 | viol in-dist=0.0437 OOD=0.0496 (663.7s)
+hybrid_nn  R2 YS=0.817 UTS=0.858 EL=0.787 | viol in-dist=0.0625 OOD=0.0672 (46.3s)
+pinn       R2 YS=0.811 UTS=0.856 EL=0.786 | viol in-dist=0.0306 OOD=0.0307 (186.6s)
